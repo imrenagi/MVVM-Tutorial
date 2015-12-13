@@ -15,6 +15,20 @@
 		DE08C59E1C1D662900136F3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE08C59D1C1D662900136F3E /* Images.xcassets */; };
 		DE08C5A11C1D662900136F3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE08C59F1C1D662900136F3E /* LaunchScreen.xib */; };
 		DE08C5AD1C1D662900136F3E /* MVVM_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5AC1C1D662900136F3E /* MVVM_TutorialTests.swift */; };
+		DE08C5BA1C1D68E700136F3E /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5B81C1D68E700136F3E /* EmployeeListViewController.swift */; };
+		DE08C5BB1C1D68E700136F3E /* EmployeeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE08C5B91C1D68E700136F3E /* EmployeeListViewController.xib */; };
+		DE08C5BE1C1D690F00136F3E /* EmployeeItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5BC1C1D690F00136F3E /* EmployeeItemCell.swift */; };
+		DE08C5BF1C1D690F00136F3E /* EmployeeItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE08C5BD1C1D690F00136F3E /* EmployeeItemCell.xib */; };
+		DE08C5C11C1D692800136F3E /* EmployeeItemCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5C01C1D692800136F3E /* EmployeeItemCellModel.swift */; };
+		DE08C5C41C1D696800136F3E /* RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5C31C1D696800136F3E /* RAC.swift */; };
+		DE08C5C61C1D69B400136F3E /* RACObserve.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5C51C1D69B400136F3E /* RACObserve.swift */; };
+		DE08C5C81C1D69D300136F3E /* RACSignal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5C71C1D69D300136F3E /* RACSignal+Extensions.swift */; };
+		DE08C5CC1C1D6B3100136F3E /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5CB1C1D6B3100136F3E /* Employee.swift */; };
+		DE08C5CE1C1D6D2700136F3E /* ReactiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5CD1C1D6D2700136F3E /* ReactiveView.swift */; };
+		DE08C5D01C1D6F2C00136F3E /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5CF1C1D6F2C00136F3E /* EmployeeListViewModel.swift */; };
+		DE08C5D31C1D725E00136F3E /* EmployeeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5D21C1D725E00136F3E /* EmployeeFactory.swift */; };
+		DE08C5D51C1D729C00136F3E /* EmployeeListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5D41C1D729C00136F3E /* EmployeeListDataSource.swift */; };
+		DE08C5D71C1D72AB00136F3E /* EmployeeListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08C5D61C1D72AB00136F3E /* EmployeeListDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,21 @@
 		DE08C5A61C1D662900136F3E /* MVVM TutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM TutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE08C5AB1C1D662900136F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE08C5AC1C1D662900136F3E /* MVVM_TutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_TutorialTests.swift; sourceTree = "<group>"; };
+		DE08C5B81C1D68E700136F3E /* EmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListViewController.swift; path = ViewController/EmployeeListViewController.swift; sourceTree = "<group>"; };
+		DE08C5B91C1D68E700136F3E /* EmployeeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmployeeListViewController.xib; path = ViewController/EmployeeListViewController.xib; sourceTree = "<group>"; };
+		DE08C5BC1C1D690F00136F3E /* EmployeeItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeItemCell.swift; path = TableViewCell/EmployeeItemCell.swift; sourceTree = "<group>"; };
+		DE08C5BD1C1D690F00136F3E /* EmployeeItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmployeeItemCell.xib; path = TableViewCell/EmployeeItemCell.xib; sourceTree = "<group>"; };
+		DE08C5C01C1D692800136F3E /* EmployeeItemCellModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeItemCellModel.swift; path = TableViewCell/EmployeeItemCellModel.swift; sourceTree = "<group>"; };
+		DE08C5C31C1D696800136F3E /* RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAC.swift; path = RAC/RAC.swift; sourceTree = "<group>"; };
+		DE08C5C51C1D69B400136F3E /* RACObserve.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RACObserve.swift; path = RAC/RACObserve.swift; sourceTree = "<group>"; };
+		DE08C5C71C1D69D300136F3E /* RACSignal+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "RACSignal+Extensions.swift"; path = "RAC/RACSignal+Extensions.swift"; sourceTree = "<group>"; };
+		DE08C5C91C1D6A7C00136F3E /* MVVMTutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVVMTutorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE08C5CB1C1D6B3100136F3E /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Employee.swift; path = Model/Employee.swift; sourceTree = "<group>"; };
+		DE08C5CD1C1D6D2700136F3E /* ReactiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveView.swift; path = RAC/ReactiveView.swift; sourceTree = "<group>"; };
+		DE08C5CF1C1D6F2C00136F3E /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListViewModel.swift; path = ViewController/EmployeeListViewModel.swift; sourceTree = "<group>"; };
+		DE08C5D21C1D725E00136F3E /* EmployeeFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeFactory.swift; path = Factory/EmployeeFactory.swift; sourceTree = "<group>"; };
+		DE08C5D41C1D729C00136F3E /* EmployeeListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListDataSource.swift; path = ViewController/EmployeeListDataSource.swift; sourceTree = "<group>"; };
+		DE08C5D61C1D72AB00136F3E /* EmployeeListDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListDelegate.swift; path = ViewController/EmployeeListDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,12 +138,18 @@
 		DE08C5931C1D662900136F3E /* MVVM Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DE08C5D11C1D724700136F3E /* Factory */,
+				DE08C5CA1C1D6B1E00136F3E /* Model */,
+				DE08C5C21C1D695300136F3E /* RAC */,
+				DE08C5B71C1D689600136F3E /* TableViewCell */,
+				DE08C5B61C1D688E00136F3E /* ViewController */,
 				DE08C5961C1D662900136F3E /* AppDelegate.swift */,
 				DE08C5981C1D662900136F3E /* ViewController.swift */,
 				DE08C59A1C1D662900136F3E /* Main.storyboard */,
 				DE08C59D1C1D662900136F3E /* Images.xcassets */,
 				DE08C59F1C1D662900136F3E /* LaunchScreen.xib */,
 				DE08C5941C1D662900136F3E /* Supporting Files */,
+				DE08C5C91C1D6A7C00136F3E /* MVVMTutorial-Bridging-Header.h */,
 			);
 			path = "MVVM Tutorial";
 			sourceTree = "<group>";
@@ -142,6 +177,55 @@
 				DE08C5AB1C1D662900136F3E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE08C5B61C1D688E00136F3E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE08C5B81C1D68E700136F3E /* EmployeeListViewController.swift */,
+				DE08C5B91C1D68E700136F3E /* EmployeeListViewController.xib */,
+				DE08C5CF1C1D6F2C00136F3E /* EmployeeListViewModel.swift */,
+				DE08C5D41C1D729C00136F3E /* EmployeeListDataSource.swift */,
+				DE08C5D61C1D72AB00136F3E /* EmployeeListDelegate.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DE08C5B71C1D689600136F3E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE08C5BC1C1D690F00136F3E /* EmployeeItemCell.swift */,
+				DE08C5BD1C1D690F00136F3E /* EmployeeItemCell.xib */,
+				DE08C5C01C1D692800136F3E /* EmployeeItemCellModel.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		DE08C5C21C1D695300136F3E /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				DE08C5C31C1D696800136F3E /* RAC.swift */,
+				DE08C5C51C1D69B400136F3E /* RACObserve.swift */,
+				DE08C5C71C1D69D300136F3E /* RACSignal+Extensions.swift */,
+				DE08C5CD1C1D6D2700136F3E /* ReactiveView.swift */,
+			);
+			name = RAC;
+			sourceTree = "<group>";
+		};
+		DE08C5CA1C1D6B1E00136F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE08C5CB1C1D6B3100136F3E /* Employee.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE08C5D11C1D724700136F3E /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				DE08C5D21C1D725E00136F3E /* EmployeeFactory.swift */,
+			);
+			name = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +314,8 @@
 			files = (
 				DE08C59C1C1D662900136F3E /* Main.storyboard in Resources */,
 				DE08C5A11C1D662900136F3E /* LaunchScreen.xib in Resources */,
+				DE08C5BB1C1D68E700136F3E /* EmployeeListViewController.xib in Resources */,
+				DE08C5BF1C1D690F00136F3E /* EmployeeItemCell.xib in Resources */,
 				DE08C59E1C1D662900136F3E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,8 +397,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE08C5C41C1D696800136F3E /* RAC.swift in Sources */,
+				DE08C5D01C1D6F2C00136F3E /* EmployeeListViewModel.swift in Sources */,
+				DE08C5CC1C1D6B3100136F3E /* Employee.swift in Sources */,
+				DE08C5BE1C1D690F00136F3E /* EmployeeItemCell.swift in Sources */,
+				DE08C5D71C1D72AB00136F3E /* EmployeeListDelegate.swift in Sources */,
+				DE08C5D31C1D725E00136F3E /* EmployeeFactory.swift in Sources */,
 				DE08C5991C1D662900136F3E /* ViewController.swift in Sources */,
+				DE08C5C11C1D692800136F3E /* EmployeeItemCellModel.swift in Sources */,
+				DE08C5C81C1D69D300136F3E /* RACSignal+Extensions.swift in Sources */,
 				DE08C5971C1D662900136F3E /* AppDelegate.swift in Sources */,
+				DE08C5C61C1D69B400136F3E /* RACObserve.swift in Sources */,
+				DE08C5BA1C1D68E700136F3E /* EmployeeListViewController.swift in Sources */,
+				DE08C5D51C1D729C00136F3E /* EmployeeListDataSource.swift in Sources */,
+				DE08C5CE1C1D6D2700136F3E /* ReactiveView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +541,7 @@
 				INFOPLIST_FILE = "MVVM Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVVM Tutorial/MVVMTutorial-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -454,6 +553,7 @@
 				INFOPLIST_FILE = "MVVM Tutorial/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MVVM Tutorial/MVVMTutorial-Bridging-Header.h";
 			};
 			name = Release;
 		};
